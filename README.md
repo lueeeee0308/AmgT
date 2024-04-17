@@ -1,18 +1,18 @@
 # AmgT
 SC24-AmgT
 
+# Download the matrix
+
 Firstly, download the 16 matrices from SuitSparse.
 
-# Download the matrix
 Run the command `bash matrix.py` and the 16 matrices are automatically downloaded to the folder “./matrix” .
 
+# compile
 
 When you want to run this files, you should change the `#The config info`  of `compile.sh`.
 
 - Step 1: Change the `CUDA_HOME`
 - Step 2: Change the `GPU` to `A100` or `H100`.
-
-# compile
 
 `source compile.sh`
 
